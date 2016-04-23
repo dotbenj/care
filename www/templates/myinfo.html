@@ -6,10 +6,16 @@
     <h2 class="rides-title">Latest roads</h2>
     
     <ion-list>
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="ride">
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="ride type-bus">
         <div class="ride-stats"></div>
-        <div class="ride-from">Grenoble</div>
-        <div class="ride-to">Lyon</div>
+        <div class="ride-from">
+          <span class="ride-prefix-label">from</span>
+          Grenoble
+        </div>
+        <div class="ride-to">
+          <span class="ride-prefix-label">to</span>
+          Lyon
+        </div>
       </ion-item>
     </ion-list>
   </ion-content>

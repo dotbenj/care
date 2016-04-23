@@ -23,6 +23,8 @@ $accentColorDarker:               #730D03;
 
 $mainTextColor:                   #FFFFFF;
 $mainTextColorLighter:            rgba($mainTextColor,.7);
+$darkTextColor:                   #333333;
+$lightTextColor:                  #BBBBBB;
 
 $border-radius-base:              3px;
 
@@ -68,7 +70,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   color:$mainColorDarker;
   box-shadow:0 2px 10px lighten($mainColorDarker,10%);
   padding:8px;
-  font-size:16px
+  font-size:18px
 }
 
 .button:hover {
@@ -85,13 +87,6 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   left:0;
   right:0;
   padding:20px;
-}
-
-.item {
-  border-radius:$border-radius-base;
-  margin-bottom:6px;
-  border:none;
-  box-shadow:0 2px 10px lighten($mainColorDarker,10%);
 }
 
 
@@ -236,13 +231,40 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 }
 
 .rides-title {
-  padding-left:50px
+  text-align:center;
+  margin-top:15px;
+  border-top:solid 1px $mainTextColorLighter;
+  padding-top:20px
 }
 
 .ride .item-content {
-  padding-left:50px;
-  padding-right:20px
+  padding-left:0px;
+  padding-right:20px;
+  background:no-repeat 86% 31% / auto 25%;
 }
+
+
+.ride.type-pedestrian .item-content {
+  background-image:url('../img/icon-pedestrian.svg');
+}
+
+.ride.type-car .item-content {
+  background-image:url('../img/icon-car.svg');
+}
+
+.ride.type-cycle .item-content {
+  background-image:url('../img/icon-cycle.svg');
+}
+
+.ride.type-bus .item-content {
+  background-image:url('../img/icon-bus.svg');
+}
+/*
+.ride:first-child .item-content {
+  background:url('../img/map.png') no-repeat center center / cover white;
+  padding-bottom:150px
+}
+*/
 
 .ride-from {
   font-family:"SourceSansPro-Semibold";
@@ -256,10 +278,26 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   color:$accentColor;
 }
 
+.ride-prefix-label {
+  display:inline-block;
+  width:40px;
+  text-align:right;
+  font-family:"SourceSansPro-Regular";
+  color:$lightTextColor;
+  font-size:14px
+}
+
 .ride-stats {
   float:right;
   background:url('../img/logo.svg') no-repeat center center / 80% auto;
   width:40px;
   height:40px;
+}
+
+.ride.item {
+  border-radius:$border-radius-base;
+  margin-bottom:6px;
+  border:none;
+  box-shadow:0 2px 10px lighten($mainColorDarker,10%);
 }
   
