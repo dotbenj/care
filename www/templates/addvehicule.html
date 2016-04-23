@@ -1,6 +1,28 @@
 <ion-view view-title="Add a vehicule">
   <ion-content>
-    <h1>Vehicule form</h1>
-    <!-- use [ng-click="goAppleCare()"] -->
+    <div class="addvehicule-logo">
+      <img src="img/addvehicule.svg">
+    </div>
+    
+    <h1 class="addvehicule-title">Add your vehicule(s)</h1>
+    <div class="addvehicule-description">To improve your next trips, you can specify your car and/or your motorbike.
+     
+    </div> 
+    <button class="button button-block button-add" ng-click="goTuto()">
+        Add my car
+      </button>
+      <button class="button button-block button-add" ng-click="goTuto()">
+        Add my motorbike
+      </button>
   </ion-content>
+    
+    <div class="fixed-bottom-buttons">    
+      <button class="button button-block button-next" ng-click="goAppleCare()">
+        Ok, it's done
+      </button>
+      
+      <button class="button button-block button-skip" ng-click="goAppleCare()">
+        Don't have any or maybe later
+      </button>
+    </div>
 </ion-view>
