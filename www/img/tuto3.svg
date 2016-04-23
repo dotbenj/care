@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 160.9 100.4" style="enable-background:new 0 0 160.9 100.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#C0392B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#C0392B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.9412,8.8942;}
+	.st2{fill:none;stroke:#C0392B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.8067,8.6521;}
+	.st3{fill:none;stroke:#C0392B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.8628,8.7531;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:#2BC070;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:#FFFFFF;stroke:#2BC070;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{opacity:0.5;}
+</style>
+<g id="XMLID_61_">
+	<g id="XMLID_99_">
+		<line id="XMLID_106_" class="st0" x1="9" y1="81.4" x2="10.6" y2="79.4"/>
+		<line id="XMLID_105_" class="st1" x1="16.2" y1="72.5" x2="30.8" y2="54.4"/>
+		<path id="XMLID_104_" class="st0" d="M33.6,51l1.6-1.9c0,0,0.8,0.3,2.3,1"/>
+		<path id="XMLID_103_" class="st2" d="M45.4,53.4c18.2,7.7,55.5,23.6,70.3,29.9"/>
+		<path id="XMLID_102_" class="st0" d="M119.7,85c1.5,0.6,2.3,1,2.3,1l1.4-2"/>
+		<line id="XMLID_101_" class="st3" x1="128.5" y1="76.8" x2="133.9" y2="69.2"/>
+		<line id="XMLID_100_" class="st0" x1="136.4" y1="65.7" x2="137.8" y2="63.6"/>
+	</g>
+</g>
+<polyline id="XMLID_42_" class="st4" points="8.8,81.4 34,93.3 72.2,46.8 119.6,67.2 126.9,57 139,63.2 "/>
+<path id="XMLID_50_" class="st5" d="M79.4,58.8"/>
+<path id="XMLID_51_" class="st4" d="M79.4,58.8"/>
+<circle id="XMLID_40_" class="st6" cx="8.8" cy="81.4" r="5.6"/>
+<g id="XMLID_88_">
+	<circle id="XMLID_94_" class="st5" cx="145.3" cy="60.7" r="13.9"/>
+	<polyline id="XMLID_1_" class="st7" points="139.7,62.3 143.4,66.3 150.5,57 	"/>
+</g>
+<g id="XMLID_84_" class="st8">
+	<circle id="XMLID_74_" class="st5" cx="27.4" cy="42.4" r="13.6"/>
+	<circle id="XMLID_85_" class="st5" cx="11.9" cy="45.9" r="7.7"/>
+	<circle id="XMLID_86_" class="st5" cx="41.5" cy="43" r="8.5"/>
+	<circle id="XMLID_87_" class="st5" cx="52.3" cy="45.4" r="6.1"/>
+</g>
+<g id="XMLID_89_" class="st8">
+	<circle id="XMLID_93_" class="st5" cx="99.5" cy="84.4" r="13.6"/>
+	<circle id="XMLID_92_" class="st5" cx="84" cy="87.9" r="7.7"/>
+	<circle id="XMLID_91_" class="st5" cx="113.6" cy="85" r="8.5"/>
+	<circle id="XMLID_90_" class="st5" cx="124.4" cy="87.4" r="6.1"/>
+</g>
+</svg>

@@ -89,6 +89,10 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   padding:20px;
 }
 
+.slider-pager .slider-pager-page {
+  color:white;
+}
+
 
 /* * * * * * * * *
   
@@ -128,7 +132,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .modal input[type="password"] {
   color:$mainTextColor;
   font-family:"SourceSansPro-Bold";
-  font-size:16px
+  font-size:16px;
 }
 
 .modal .input-label {
@@ -238,7 +242,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 }
 
 .ride .item-content {
-  padding-left:0px;
+  padding-left:20px;
   padding-right:20px;
   background:no-repeat 86% 31% / auto 25%;
 }
@@ -300,4 +304,63 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   border:none;
   box-shadow:0 2px 10px lighten($mainColorDarker,10%);
 }
+
+
+/* * * * * * * * *
   
+  HOW DOES IT WORK? 
+  
+*/
+
+.how-logo {
+  width:100%;
+  display:block;
+  text-align:center;
+}
+
+.how-logo img {
+  margin:70px auto 0px auto;  
+  width:80%
+}
+
+.how-title {
+  color:white;
+  font-size:42px;
+  line-height:1.15;
+  font-family:"SourceSansPro-Light";
+  text-align:center;
+  margin-bottom:10px
+}
+
+.how-description {
+  color:white;
+  padding:20px 40px;
+  font-size:20px;
+  line-height:1.3;
+  text-align:center;
+  font-family:"SourceSansPro-Regular";
+  padding-bottom:40px
+}
+
+
+
+/* * * * * * * * *
+  
+  HOW DOES IT WORK? 
+  
+*/
+
+.tuto-content {
+  padding:0;
+}
+
+.tuto-slider {
+  height:95%
+}
+
+.tuto-slider .slider-pager {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+}
