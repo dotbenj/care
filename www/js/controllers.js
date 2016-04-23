@@ -60,12 +60,17 @@ angular.module('starter.controllers', [])
     $state.go('app.tuto');
   };
 
-  $scope.goTuto = function(){
+  $scope.goMyInfo = function(){
     $state.go('app.myinfo');
   }
 
   $scope.doSignUp = function(){
-    $careApi.signup($scope.loginData.username,$scope.loginData.password).then(
+    //console.log("Signup success:",success);
+    $scope.loginData.id = "00000000001";
+    $scope.modalSign.hide();
+    $state.go('app.addvehicule');
+
+    /*$careApi.signup($scope.loginData.username,$scope.loginData.password).then(
       function(success){
         console.log("Signup success:",success);
         $scope.loginData.id = success.user_id;
@@ -76,7 +81,7 @@ angular.module('starter.controllers', [])
         console.log("Signup error:",error);
         $scope.loginData = {};
       }
-    );
+    );*/
   }
 
   // Perform the login action when the user submits the login form
