@@ -461,3 +461,27 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   text-align:center;
   font-family:"SourceSansPro-Semibold"
 }
+
+.addvehicule-checkbox {
+  float:left;
+  clear:both;
+  width:30px;
+  padding:20px 20px 0 20px;
+  border:none;
+  background:transparent;
+}
+
+.addvehicule-checkbox.item-checkbox .checkbox {
+  left:0;
+  padding-left:0
+}
+
+.addvehicule-checkbox .checkbox input:checked:before, 
+.addvehicule-checkbox .checkbox input:checked + .checkbox-icon:before {
+  background:$mainColor;
+  border-color:$mainColor
+}
+
+.addvehicule-item {
+  
+}
