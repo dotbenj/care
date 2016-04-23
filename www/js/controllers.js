@@ -60,12 +60,17 @@ angular.module('starter.controllers', [])
     $state.go('app.tuto');
   };
 
-  $scope.goTuto = function(){
+  $scope.goMyInfo = function(){
     $state.go('app.myinfo');
   }
 
   $scope.doSignUp = function(){
-    $careApi.signup($scope.loginData.username,$scope.loginData.password).then(
+    //test without server
+    /*$scope.loginData.id = "00000000001";
+    $scope.modalSign.hide();
+    $state.go('app.addvehicule');*/
+
+    $careApi.signup($scope.loginData.username,$scope.loginData.email,$scope.loginData.password).then(
       function(success){
         console.log("Signup success:",success);
         $scope.loginData.id = success.user_id;
