@@ -9827,6 +9827,9 @@ a.button {
 .button-next {
   background: url("../img/icon-next.svg") no-repeat 95% 50%/auto 30% white; }
 
+.button-add {
+  background: url("../img/icon-add.svg") no-repeat 95% 50%/auto 30% white; }
+
 .button.button-skip {
   background: transparent;
   box-shadow: none;
@@ -10094,6 +10097,35 @@ a.button {
   text-align: center; }
 
 .applecare-description {
+  color: white;
+  padding: 20px 40px;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  font-family: "SourceSansPro-Semibold"; }
+
+/* * * * * * * * *
+  
+  ADDVEHICULE  
+  
+*/
+.addvehicule-logo {
+  width: 100%;
+  display: block;
+  text-align: center; }
+
+.addvehicule-logo img {
+  margin: 30px auto 0px auto;
+  width: 100%; }
+
+.addvehicule-title {
+  color: white;
+  font-size: 42px;
+  line-height: 1.15;
+  font-family: "SourceSansPro-Light";
+  text-align: center; }
+
+.addvehicule-description {
   color: white;
   padding: 20px 40px;
   font-size: 16px;
