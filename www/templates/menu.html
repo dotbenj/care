@@ -18,19 +18,22 @@
     </ion-header-bar>
     <ion-content>
       <ion-list>
-        <ion-item menu-close ng-if="!loginData.username" ng-click="login()">
+        <ion-item menu-close ng-if="!loginData.id" ng-click="login()">
           Login
         </ion-item>
-        <ion-item menu-close ng-if="loginData.username" href="#/app/myinfo">
+        <ion-item menu-close ng-if="!loginData.id" ng-click="signup()">
+          Signup
+        </ion-item>
+        <ion-item menu-close ng-if="loginData.id" href="#/app/myinfo">
           My Info
         </ion-item>
-        <ion-item menu-close ng-if="loginData.username" href="#/app/ranking">
+        <ion-item menu-close ng-if="loginData.id" href="#/app/ranking">
           Ranking
         </ion-item>
-        <ion-item menu-close ng-if="loginData.username" href="#/app/magic">
+        <ion-item menu-close ng-if="loginData.id" href="#/app/magic">
           Where the magic is
         </ion-item>
-        <ion-item menu-close ng-if="loginData.username" ng-click="logout()">Logout</ion-item>
+        <ion-item menu-close ng-if="loginData.id" ng-click="logout()">Logout</ion-item>
       </ion-list>
     </ion-content>
   </ion-side-menu>
