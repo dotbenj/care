@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, $careApi) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, $careApi, $state) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -37,7 +37,7 @@ angular.module('starter.controllers', [])
 
   $scope.signup = function(){
     $scope.modalSign.show();
-  }
+  };
 
   $scope.closeSignup = function() {
     $scope.modalSign.hide();
@@ -48,12 +48,29 @@ angular.module('starter.controllers', [])
     $scope.loginData = {};
   };
 
+  $scope.goAppleCare = function(){
+    if(ionic.Platform.isIOS()){
+      $state.go('app.applecare');
+    }else{
+      $state.go('app.tuto');
+    }
+  };
+
+  $scope.goTuto = function(){
+    $state.go('app.tuto');
+  };
+
+  $scope.goTuto = function(){
+    $state.go('app.myinfo');
+  }
+
   $scope.doSignUp = function(){
     $careApi.signup($scope.loginData.username,$scope.loginData.password).then(
       function(success){
         console.log("Signup success:",success);
         $scope.loginData.id = success.user_id;
         $scope.modalSign.hide();
+        $state.go('app.addvehicule');
       },
       function(error){
         console.log("Signup error:",error);
