@@ -99,7 +99,7 @@ angular.module('starter.service', [])
    * @return promise
    */
   $self.login = function(email, password) {
-    return $self.get('/', {email:email,password:password});
+    return $self.post('/', {email:email,password:password});
   };
 
   /**

@@ -62,13 +62,22 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.service'])
   })
 
   .state('app.magic', {
-      url: '/magic',
+    url: '/magic',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/magic.html'
+      }
+    }
+  })
+
+  .state('app.landing', {
+      url: '/landing',
       views: {
         'menuContent': {
-          templateUrl: 'templates/magic.html'
+          templateUrl: 'templates/landing.html'
         }
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/myinfo');
+  $urlRouterProvider.otherwise('/app/landing');
 });
