@@ -1,5 +1,17 @@
 <ion-view view-title="CARE">
-  <ion-content>
-    <h1>Landing</h1>
+  <ion-content scroll="false">
+    <div class="landing-logo"></div>
+    
+    <h1 class="landing-title">Care for you,<br>care for everyone</h1>
+    <div class="landing-description">Lorem ipsum dolor sit amet apsum dolor all everything up dolor sitamet Loremipsum sitamet apsum dolor lorem ipsum dolor sit amet</div>
   </ion-content>
+
+  <div class="fixed-bottom-buttons">    
+    <button class="button button-block button-next" ng-if="!loginData.username" ng-click="signup()">
+      Get started!
+    </button>  
+    <button class="button button-block button-next" ng-if="loginData.username" ng-click="login()">
+      Log in
+    </button>
+  </div>
 </ion-view>

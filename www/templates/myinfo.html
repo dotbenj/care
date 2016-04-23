@@ -1,8 +1,15 @@
-<ion-view view-title="My Personal informations">
+<ion-view view-title="My Personal informations" class="myinfo">
   <ion-content>
+  
+    <div class="myinfo-logo"></div>
+    
+    <h2 class="rides-title">Latest roads</h2>
+    
     <ion-list>
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="ride">
+        <div class="ride-stats"></div>
+        <div class="ride-from">Grenoble</div>
+        <div class="ride-to">Lyon</div>
       </ion-item>
     </ion-list>
   </ion-content>
