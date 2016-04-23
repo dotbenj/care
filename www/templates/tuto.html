@@ -1,20 +1,51 @@
 <ion-view view-title="Welcome on Care">
-  <ion-content>    
-    <div class="how-logo">
-      <img src="img/tuto.svg">
-    </div>
-    
-    <h1 class="how-title">How does it work?</h1>
-    <div class="how-description">
-      Your favourite transportation apps take your personal health profile to advise you the best itinerary, according to air conditions, pollution rate and meteorological stuff.
-      <br>
-      <br></div>
-    
+  <ion-content class="tuto-content">    
+  
+    <ion-slide-box on-slide-changed="slideHasChanged($index)" class="tuto-slider">
+      <ion-slide>
+        <div class="how-logo">
+          <img src="img/tuto.svg">
+        </div>
+        
+        <h1 class="how-title">Just be yourself</h1>
+        <div class="how-description">
+          Your favourite transportation apps take your personal health profile to offer you the best itinerary from A to B according to air quality, pollution rate and meteorological conditions.
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="how-logo">
+          <img src="img/tuto2.svg">
+        </div>
+        
+        <h1 class="how-title">The best for you</h1>
+        <div class="how-description">
+          CARE returns results, that's a pretty good start uh?
+          <br>
+          <br>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="how-logo">
+          <img src="img/tuto3.svg">
+        </div>
+        
+        <h1 class="how-title">Take a breath</h1>
+        <div class="how-description">
+          Avoid polluted zones 
+          <br>
+          <br>
+        </div>
     <div class="fixed-bottom-buttons">    
       <button class="button button-block button-next" ng-click="goMyInfo()">
         Ok, got it!
       </button>
     </div>
+      </ion-slide>
+    </ion-slide-box>
+  
+  
+   
+    
     
   </ion-content>
 </ion-view>
