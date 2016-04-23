@@ -4,6 +4,6 @@
 node_modules/
 platforms/
 plugins/
-*.css
+www/css/
 *.DS_Store
 
