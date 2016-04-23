@@ -99,15 +99,15 @@ angular.module('starter.service', [])
    * @return promise
    */
   $self.login = function(email, password) {
-    return $self.post('/', {email:email,password:password});
+    return $self.post('/auth/signin', {email:email,password:password});
   };
 
   /**
    * Driver: set a referrer according an ID
    * @return promise
    */
-  $self.setReferrer = function(email,password) {
-    return $self.get('/login', {email:email,password:password});
+  $self.signup = function(email,password) {
+    return $self.post('/auth/signup', {email:email,password:password});
   };
 
   return $self;
