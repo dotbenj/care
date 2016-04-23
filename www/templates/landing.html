@@ -7,8 +7,11 @@
   </ion-content>
 
   <div class="fixed-bottom-buttons">    
-    <button class="button button-block" ng-if="!loginData.username" ng-click="signup()">
-      Signup
+    <button class="button button-block button-next" ng-if="!loginData.username" ng-click="signup()">
+      Get started!
+    </button>  
+    <button class="button button-block button-next" ng-if="loginData.username" ng-click="login()">
+      Log in
     </button>
   </div>
 </ion-view>
