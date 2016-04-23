@@ -216,7 +216,14 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   MYINFO 
   
 */
-
+.myinfo{
+  .bar-subheader{
+    height: 279px;
+  }
+  ion-content{
+    top:279px;
+  }
+}
 .myinfo-logo {
   width:180px;
   height:180px;
