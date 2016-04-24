@@ -114,12 +114,13 @@ angular.module('starter.controllers', [])
 
 .controller('MyInfoCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { from: '18 rue Lafayette Lyon', to: 'Paris', type: 'bus', air: 5, pollution: 37, allergies: 18 },
+    { from: 'London', to: 'Paris', type: 'train', air: 2, pollution: 18, allergies: 8 },
+    { from: 'Bellecour', to: 'Gare Lyon-Part-Dieu', type: 'cycle', air: 13, pollution: 22, allergies: 4 },
+    { from: 'Valence', to: 'Bordeaux', type: 'car', air: 17, pollution: 36, allergies: 12 },
+    { from: 'Lyon', to: 'Champs-Élysées', type: 'bus', air: 24, pollution: 54, allergies: 27 },
+    { from: 'Grenoble', to: 'Montrevel', type: 'car', air: 2, pollution: 8, allergies: 3 },
+    { from: 'Sète', to: 'Perpignan', type: 'car', air: 24, pollution: 36, allergies: 27 }
   ];
 })
 
