@@ -81,7 +81,7 @@ angular.module('starter.controllers', [])
         console.log("Signup error:",error);
         $scope.loginData = {};
         var myPopup = $ionicPopup.show({
-          template: error,
+          template: error.message,
           title: 'Error',
           scope: $scope,
           buttons: [{ text: 'Cancel' }]
