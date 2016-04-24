@@ -1,9 +1,9 @@
 <ion-view view-title="My Personal informations" class="myinfo">
+  <ion-content>
   <div class="bar-subheader">
     <div class="myinfo-logo"></div>
     <h2 class="rides-title">Latest roads</h2>
   </div>
-  <ion-content>
     <ion-list ion-scroll="true">
       <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="ride type-car">
         <div class="ride-from">

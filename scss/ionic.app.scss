@@ -112,7 +112,6 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .bar.bar-stable {
   background:transparent;
   padding:20px;
-  
   border:none !important;
 }
 
@@ -127,6 +126,11 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .bar-stable .button.button-clear:after {
   font-size:36px;
 }
+
+.bar-header {
+  border:none !important;
+}
+
 .menu-left .bar.bar-stable {
   height:84px;
 }
@@ -280,19 +284,28 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   MYINFO 
   
 */
+
+
 .myinfo{
   .bar-subheader{
-    height: 279px;
+    height: 229px;
   }
+  /*
   ion-content{
-    top:279px;
+    top:229px;
   }
+  */
 }
+
+.myinfo.pane .has-header {
+  top:0;
+}
+
 .myinfo-logo {
   width:180px;
   height:180px;
   border-radius:50%;
-  background:url('../img/logo-white.svg') no-repeat center center / 80% auto ;
+  background:url('../img/progress.svg') no-repeat center center / 80% auto ;
   margin:30px auto 0px auto;
 }
 
@@ -325,13 +338,14 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   text-align:center;
   margin-top:15px;
   border-top:solid 1px $mainTextColorLighter;
-  padding-top:20px
+  padding-top:20px;
+  display:none;
 }
 
 .ride .item-content {
   padding-left:55px;
   padding-right:20px;
-  background:no-repeat 17px 14px / auto 25px;
+  background:no-repeat 17px 14px / auto 20px;
 }
 
 
@@ -358,16 +372,16 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 */
 
 .ride-from {
-  font-family:"SourceSansPro-Semibold";
+  font-family:"SourceSansPro-Bold";
   font-size:18px;
-  color:$accentColor;
+  color:$mainColorDarker;
   display:inline-block;
 }
 
 .ride-to {
-  font-family:"SourceSansPro-Semibold";
+  font-family:"SourceSansPro-Bold";
   font-size:18px;
-  color:$accentColor;
+  color:$mainColorDarker;
   display:inline-block;
 }
 
@@ -375,7 +389,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   display:inline-block;
   padding:0 2px 0 0;
   font-family:"SourceSansPro-Regular";
-  color:$darkTextColor;
+  color:$mainColorDarker;
   font-size:16px;
   display:inline-block;
 }
@@ -384,7 +398,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 }
 
 .ride-stat {
-  padding-top:42px;
+  padding-top:34px;
   margin-top:4px;
   width:31%;
   margin-right:2%;
@@ -392,33 +406,34 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 }
 
 .ride-stat.type-air {
-  background:url('../img/icon-air.svg') no-repeat 0 0 / auto 40px transparent;
+  background:url('../img/icon-air.svg') no-repeat 0 0 / auto 30px transparent;
 }
 
 .ride-stat.type-pollution {
-  background:url('../img/icon-pollution.svg') no-repeat 0 0 / auto 43px transparent;
+  background:url('../img/icon-pollution.svg') no-repeat 0 0 / auto 33px transparent;
 }
 
 .ride-stat.type-allergies {
-  background:url('../img/icon-allergies.svg') no-repeat 0 0 / auto 50px transparent;
+  background:url('../img/icon-allergies.svg') no-repeat 0 0 / auto 40px transparent;
 }
 
 .ride-stat-label {
   color:#989898;
   display:block;
-  padding-bottom:7px;
+  padding-bottom:14px;
   font-family:"SourceSansPro-Regular";
 }
 
 .ride-stat-number {
-  font-size:32px;
-  font-family:"SourceSansPro-Regular";
-  color:$mainColor
+  font-size:42px;
+  font-family:"SourceSansPro-Semibold";
+  color:$mainColor;
+  
 }
 
 .ride-stat-number sup {
   font-size:18px;
-  font-family:"SourceSansPro-Semibold";
+  font-family:"SourceSansPro-Bold";
 }
 
 .ride.item {
@@ -584,4 +599,27 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 .addvehicule-item {
   
+}
+
+/* * * * * * * * *
+  
+  RANKING  
+  
+*/
+
+.ranking-map {
+  background:url('../img/map.png') no-repeat center center / auto 100% white;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.ranking-popup {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  z-index:100;
 }
