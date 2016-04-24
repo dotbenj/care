@@ -5,15 +5,27 @@
   </div>
   <ion-content>
     <ion-list ion-scroll="true">
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="ride type-bus">
-        <div class="ride-stats"></div>
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="ride type-car">
         <div class="ride-from">
-          <span class="ride-prefix-label">from</span>
           Grenoble
         </div>
         <div class="ride-to">
           <span class="ride-prefix-label">to</span>
           Lyon
+        </div>
+        <div class="ride-stats">
+          <div class="ride-stat type-air">
+            <span class="ride-stat-label">Air quality</span>
+            <span class="ride-stat-number">8<sup>%</sup></span>
+          </div>
+          <div class="ride-stat type-pollution">
+            <span class="ride-stat-label">Pollution</span>
+            <span class="ride-stat-number">22<sup>%</sup></span>
+          </div>
+          <div class="ride-stat type-allergies">
+            <span class="ride-stat-label">Allergies</span>
+            <span class="ride-stat-number">3<sup>%</sup></span>
+          </div>
         </div>
       </ion-item>
     </ion-list>

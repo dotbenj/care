@@ -11,7 +11,7 @@
 	.st5{fill:#FFFFFF;}
 	.st6{fill:#2BC070;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st7{fill:#FFFFFF;stroke:#2BC070;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st8{opacity:0.5;}
+	.st8{opacity:0.6;}
 </style>
 <g id="XMLID_61_">
 	<g id="XMLID_99_">
@@ -32,16 +32,16 @@
 	<circle id="XMLID_94_" class="st5" cx="145.3" cy="60.7" r="13.9"/>
 	<polyline id="XMLID_1_" class="st7" points="139.7,62.3 143.4,66.3 150.5,57 	"/>
 </g>
-<g id="XMLID_84_" class="st8">
-	<circle id="XMLID_74_" class="st5" cx="27.4" cy="42.4" r="13.6"/>
-	<circle id="XMLID_85_" class="st5" cx="11.9" cy="45.9" r="7.7"/>
-	<circle id="XMLID_86_" class="st5" cx="41.5" cy="43" r="8.5"/>
-	<circle id="XMLID_87_" class="st5" cx="52.3" cy="45.4" r="6.1"/>
+<g id="XMLID_77_" class="st8">
+	<circle id="XMLID_76_" class="st5" cx="37.2" cy="41.3" r="13.5"/>
+	<circle id="XMLID_75_" class="st5" cx="25.2" cy="45.9" r="7.7"/>
+	<circle id="XMLID_47_" class="st5" cx="50.9" cy="43.3" r="8.4"/>
+	<circle id="XMLID_46_" class="st5" cx="13.7" cy="53.6" r="3.8"/>
 </g>
-<g id="XMLID_89_" class="st8">
-	<circle id="XMLID_93_" class="st5" cx="99.5" cy="84.4" r="13.6"/>
-	<circle id="XMLID_92_" class="st5" cx="84" cy="87.9" r="7.7"/>
-	<circle id="XMLID_91_" class="st5" cx="113.6" cy="85" r="8.5"/>
-	<circle id="XMLID_90_" class="st5" cx="124.4" cy="87.4" r="6.1"/>
+<g id="XMLID_78_" class="st8">
+	<circle id="XMLID_82_" class="st5" cx="113.9" cy="86.5" r="11.9"/>
+	<circle id="XMLID_81_" class="st5" cx="103.3" cy="90.5" r="6.8"/>
+	<circle id="XMLID_80_" class="st5" cx="126" cy="88.2" r="7.4"/>
+	<circle id="XMLID_79_" class="st5" cx="93.2" cy="97.3" r="3.3"/>
 </g>
 </svg>
