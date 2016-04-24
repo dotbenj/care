@@ -111,7 +111,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 .bar.bar-stable {
   background:transparent;
-  padding:20px
+  padding:20px;
+  
+  border:none !important;
 }
 
 .bar.bar-stable .title {
@@ -123,7 +125,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 }
 .bar-stable .button.button-clear:before,
 .bar-stable .button.button-clear:after {
-  font-size:36px
+  font-size:36px;
 }
 .menu-left .bar.bar-stable {
   height:84px;
@@ -135,9 +137,10 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   font-family:"SourceSansPro-Regular";
   font-size:24px;
   padding:17px 0 15px 60px;
-  background:url('../img/logo-white.svg') no-repeat 10px 20px / auto 40px;
+  background:url('../img/logo-white.svg') no-repeat 10px 24px / auto 30px;
   height:auto;
-  letter-spacing:3px
+  letter-spacing:3px;
+  text-align:left;
 }
 
 .menu-left .has-header {
@@ -148,13 +151,22 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   background:$mainColorDarker
 }
 
-.menu-left .item {
+.menu-left .item,
+.menu-left .item-complex .item-content, 
+.menu-left .item-radio .item-content  {
   background:transparent;
   border:none;
   color:white;
   font-family:"SourceSansPro-Regular";
   font-size:18px;
-  padding-left:50px
+  padding-left:50px;
+  padding-right:0
+}
+
+
+.menu-left .item-complex .item-content, 
+.menu-left .item-radio .item-content {
+  padding-left:0
 }
 
 .menu-content {
