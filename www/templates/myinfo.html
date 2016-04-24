@@ -5,7 +5,7 @@
     <h2 class="rides-title">Latest roads</h2>
   </div>
     <ion-list ion-scroll="true">
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="ride type-car">
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="ride type-cycle">
         <div class="ride-from">
           Grenoble
         </div>
@@ -13,6 +13,7 @@
           <span class="ride-prefix-label">to</span>
           Lyon
         </div>
+        <div class="ride-line"></div>
         <div class="ride-stats">
           <div class="ride-stat type-air">
             <span class="ride-stat-label">Air quality</span>
