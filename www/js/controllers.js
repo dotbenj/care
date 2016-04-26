@@ -10,12 +10,7 @@ angular.module('starter.controllers', [])
   //});
 
   // Form data for the login modal
-  $scope.loginData = {
-    id: 1,
-    username: "ben",
-    email: "ben@care.com",
-    password: "mypassword"
-  };
+  $scope.loginData = {};
 
   // Create the login modal that we will use later
   $ionicModal.fromTemplateUrl('templates/login.html', {
